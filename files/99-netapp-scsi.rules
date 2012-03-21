@@ -1,0 +1,1 @@
+KERNEL="sd*", SYSFS="VMware", SYSFS="Virtual Disk", NAME="%k", PROGRAM="/bin/sh -c 'echo 180 > /sys/block/%k/device/timeout'"
